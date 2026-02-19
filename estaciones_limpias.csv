@@ -1,0 +1,437 @@
+NLC,Estacion,Lineas,London Underground,Elizabeth Line,London Overground,DLR,Metro_nocturno?
+500,Acton Town,District,Yes,No,No,No,Yes
+501,Barbican, Piccadilly,Yes,No,No,No,No
+502,Aldgate,Circle,Yes,No,No,No,No
+503,Aldgate East, Hammersmith & City,Yes,No,No,No,No
+504,Stratford International DLR, Hammersmith & City,No,No,No,Yes,No
+505,Alperton, Metropolitan,Yes,No,No,No,No
+506,Amersham,Circle,Yes,No,No,No,No
+507,Angel, Metropolitan,Yes,No,No,No,No
+508,Archway,District,Yes,No,No,No,Yes
+509,Arnos Grove, Hammersmith & City,Yes,No,No,No,Yes
+510,Arsenal,Piccadilly,Yes,No,No,No,Yes
+511,Baker Street,Metropolitan,Yes,No,No,No,Yes
+512,Balham LU,Northern,Yes,No,No,No,Yes
+513,Bank and Monument,Northern,Yes,No,No,Yes,Yes
+514,Barking,Piccadilly,Yes,No,Yes,No,No
+515,Barkingside,Piccadilly,Yes,No,No,No,Yes
+516,Barons Court,Bakerloo,Yes,No,No,No,Yes
+517,Bayswater, Circle,Yes,No,No,No,No
+518,Becontree, Jubilee,Yes,No,No,No,No
+519,Belsize Park, Hammersmith & City,Yes,No,No,No,Yes
+520,Bethnal Green LU, Metropolitan,Yes,No,No,No,Yes
+521,Blackfriars LU,Northern,Yes,No,No,No,No
+522,Blackhorse Road,Central,Yes,No,Yes,No,Yes
+523,King George V,Metropolitan,No,No,No,Yes,No
+524,Bond Street, Circle,Yes,Yes,No,No,Yes
+525,Borough, District,Yes,No,No,No,No
+526,Boston Manor, DLR,Yes,No,No,No,Yes
+527,Bounds Green, Northern,Yes,No,No,No,Yes
+528,Bow Road, Waterloo & City,Yes,No,No,No,No
+529,Brent Cross,District,Yes,No,No,No,Yes
+530,Bromley-by-Bow, Hammersmith & City,Yes,No,No,No,No
+531,Buckhurst Hill, London Overground,Yes,No,No,No,Yes
+532,Burnt Oak,Central,Yes,No,No,No,Yes
+533,London City Airport, Piccadilly,No,No,No,Yes,No
+534,Caledonian Road,District,Yes,No,No,No,Yes
+535,Camden Town, Piccadilly,Yes,No,No,No,Yes
+536,Cannon Street LU,Circle,Yes,No,No,No,No
+537,Canons Park, District,Yes,No,No,No,Yes
+538,Pontoon Dock,Central,No,No,No,Yes,No
+539,Chalfont & Latimer,District,Yes,No,No,No,No
+540,Chalk Farm,Northern,Yes,No,No,No,Yes
+541,Chancery Lane,Central,Yes,No,No,No,Yes
+542,Embankment,Circle,Yes,No,No,No,Yes
+543,Chesham, District,Yes,No,No,No,No
+544,Chigwell,London Overground,Yes,No,No,No,No
+545,Chiswick Park, Victoria,Yes,No,No,No,No
+546,Chorleywood,Central,Yes,No,No,No,No
+547,Clapham Common, Jubilee,Yes,No,No,No,Yes
+548,Clapham North, TfL Rail,Yes,No,No,No,Yes
+549,Clapham South,Northern,Yes,No,No,No,Yes
+550,Cockfosters,Piccadilly,Yes,No,No,No,Yes
+551,Colindale,Piccadilly,Yes,No,No,No,Yes
+552,Colliers Wood,District,Yes,No,No,No,Yes
+553,Covent Garden, Hammersmith & City,Yes,No,No,No,Yes
+554,Croxley,Northern,Yes,No,No,No,No
+555,Dagenham East,District,Yes,No,No,No,No
+556,Dagenham Heathway, Hammersmith & City,Yes,No,No,No,No
+557,Debden,Central,Yes,No,No,No,No
+558,Dollis Hill,Northern,Yes,No,No,No,Yes
+559,West Silvertown,Metropolitan,No,No,No,Yes,No
+560,Ealing Broadway,Piccadilly,Yes,Yes,No,No,Yes
+561,Ealing Common,Northern,Yes,No,No,No,No
+562,Earl's Court,Circle,Yes,No,No,No,Yes
+563,East Acton, District,Yes,No,No,No,Yes
+564,Eastcote,Jubilee,Yes,No,No,No,No
+565,East Finchley,Metropolitan,Yes,No,No,No,Yes
+566,East Ham,Northern,Yes,No,No,No,No
+567,East Putney,Central,Yes,No,No,No,No
+568,Edgware,Bakerloo,Yes,No,No,No,Yes
+569,Edgware Road (DIS), Circle,Yes,No,No,No,No
+570,Elephant & Castle LU, District,Yes,No,No,No,No
+571,Elm Park, Northern,Yes,No,No,No,No
+572,Epping,Metropolitan,Yes,No,No,No,No
+573,Woolwich Arsenal, Piccadilly,No,No,No,Yes,No
+574,Euston LU,Central,Yes,No,No,No,Yes
+575,Euston Square,District,Yes,No,No,No,No
+576,Fairlop,Metropolitan,Yes,No,No,No,Yes
+577,Farringdon,Northern,Yes,Yes,No,No,No
+578,Finchley Central,Northern,Yes,No,No,No,Yes
+579,Finchley Road,Northern,Yes,No,No,No,Yes
+580,Finsbury Park,Piccadilly,Yes,No,No,No,Yes
+581,Fulham Broadway,Northern,Yes,No,No,No,No
+582,Gants Hill,Northern,Yes,No,No,No,Yes
+583,Gloucester Road,Piccadilly,Yes,No,No,No,Yes
+584,Golders Green,Metropolitan,Yes,No,No,No,Yes
+585,Goldhawk Road,District,Yes,No,No,No,No
+586,Goodge Street,District,Yes,No,No,No,Yes
+587,Grange Hill,Central,Yes,No,No,No,No
+588,Great Portland Street,Jubilee,Yes,No,No,No,No
+589,Greenford,Central,Yes,No,No,No,No
+590,Green Park, District,Yes,No,No,No,Yes
+591,Gunnersbury, TfL Rail,Yes,No,Yes,No,No
+592,Hainault,District,Yes,No,No,No,Yes
+593,Hammersmith (DIS), Piccadilly,Yes,No,No,No,Yes
+594,Hampstead,District,Yes,No,No,No,Yes
+595,Hanger Lane, Piccadilly,Yes,No,No,No,No
+596,Harlesden,Central,Yes,No,Yes,No,No
+597,Harrow & Wealdstone,Metropolitan,Yes,No,Yes,No,No
+598,Harrow-on-the-Hill, Piccadilly,Yes,No,No,No,No
+599,Wood Lane,Sin texto,Yes,No,No,No,No
+601,Hendon Central,Northern,Yes,No,No,No,Yes
+602,High Barnet,District,Yes,No,No,No,Yes
+603,Highbury & Islington, Hammersmith & City,Yes,No,Yes,No,Yes
+604,Highgate,District,Yes,No,No,No,Yes
+605,High Street Kensington,Northern,Yes,No,No,No,No
+606,Hillingdon,Circle,Yes,No,No,No,No
+607,Holborn, District,Yes,No,No,No,Yes
+608,Holland Park, Hammersmith & City,Yes,No,No,No,Yes
+609,Holloway Road,Northern,Yes,No,No,No,Yes
+610,Hornchurch, Bakerloo,Yes,No,No,No,No
+611,Hounslow Central,District,Yes,No,No,No,Yes
+612,Hounslow East,Central,Yes,No,No,No,Yes
+613,Hounslow West,Northern,Yes,No,No,No,Yes
+614,Hyde Park Corner, Victoria,Yes,No,No,No,Yes
+615,Ickenham,Circle,Yes,No,No,No,No
+616,Kennington, Hammersmith & City,Yes,No,No,No,Yes
+617,Kensal Green, Metropolitan,Yes,No,Yes,No,No
+618,Kensington (Olympia),Central,Yes,No,Yes,No,No
+619,Kentish Town,Circle,Yes,No,No,No,Yes
+620,Kenton, Hammersmith & City,Yes,No,Yes,No,No
+621,Kew Gardens, Metropolitan,Yes,No,Yes,No,No
+622,Kilburn, TfL Rail,Yes,No,No,No,Yes
+623,Kilburn Park,Northern,Yes,No,No,No,No
+624,Kingsbury,Metropolitan,Yes,No,No,No,Yes
+625,King's Cross St. Pancras, Jubilee,Yes,No,No,No,Yes
+626,Knightsbridge,Piccadilly,Yes,No,No,No,Yes
+627,Ladbroke Grove, Victoria,Yes,No,No,No,No
+628,Lambeth North,District,Yes,No,No,No,No
+629,Lancaster Gate,Central,Yes,No,No,No,Yes
+630,Latimer Road,District,Yes,No,No,No,No
+631,Leicester Square, Piccadilly,Yes,No,No,No,Yes
+632,Leyton, Circle,Yes,No,No,No,Yes
+633,Leytonstone,Northern,Yes,No,No,No,Yes
+634,Liverpool Street LU,Circle,Yes,No,Yes,No,Yes
+635,London Bridge LU, Hammersmith & City,Yes,No,No,No,Yes
+636,Loughton,Northern,Yes,No,No,No,Yes
+637,Maida Vale,Central,Yes,No,No,No,No
+638,Manor House,Circle,Yes,No,No,No,Yes
+639,Mansion House, Hammersmith & City,Yes,No,No,No,No
+640,Marble Arch, Metropolitan,Yes,No,No,No,Yes
+641,Marylebone LU,Central,Yes,No,No,No,No
+642,Mile End,Jubilee,Yes,No,No,No,Yes
+643,Mill Hill East, Piccadilly,Yes,No,No,No,No
+645,Moorgate, Victoria,Yes,No,No,No,No
+646,Moor Park,District,Yes,No,No,No,No
+647,Morden, London Overground,Yes,No,No,No,Yes
+648,Mornington Crescent,Central,Yes,No,No,No,Yes
+649,Neasden,District,Yes,No,No,No,Yes
+650,Newbury Park, Piccadilly,Yes,No,No,No,Yes
+651,New Cross,Northern,No,No,No,No,Sin texto
+652,New Cross Gate,Central,No,No,No,No,Sin texto
+653,North Acton,Bakerloo,Yes,No,No,No,Yes
+654,North Ealing, London Overground,Yes,No,No,No,No
+655,Northfields,Bakerloo,Yes,No,No,No,Yes
+656,North Harrow, London Overground,Yes,No,No,No,No
+657,Northolt,Metropolitan,Yes,No,No,No,No
+659,North Wembley,Northern,Yes,No,Yes,No,No
+660,Northwick Park,Northern,Yes,No,No,No,No
+661,Northwood,London Overground,Yes,No,No,No,No
+662,Northwood Hills, Victoria,Yes,No,No,No,No
+663,Notting Hill Gate,Northern,Yes,No,No,No,Yes
+664,Oakwood,Circle,Yes,No,No,No,Yes
+665,Old Street, District,Yes,No,No,No,No
+667,Osterley,Metropolitan,Yes,No,No,No,Yes
+668,Oval, Piccadilly,Yes,No,No,No,Yes
+669,Oxford Circus,Central,Yes,No,No,No,Yes
+670,Paddington TfL, Piccadilly,Yes,No,No,No,No
+671,Park Royal,Central,Yes,No,No,No,No
+672,Parsons Green,Piccadilly,Yes,No,No,No,No
+673,Perivale,District,Yes,No,No,No,No
+674,Piccadilly Circus,Piccadilly,Yes,No,No,No,Yes
+675,Pinner,Piccadilly,Yes,No,No,No,No
+676,Plaistow,Piccadilly,Yes,No,No,No,No
+677,Preston Road,Piccadilly,Yes,No,No,No,No
+678,Putney Bridge,Metropolitan,Yes,No,No,No,No
+679,Queensbury, Piccadilly,Yes,No,No,No,Yes
+680,Queen's Park,Northern,Yes,No,Yes,No,No
+681,Queensway,Bakerloo,Yes,No,No,No,Yes
+682,Ravenscourt Park, London Overground,Yes,No,No,No,No
+683,Rayners Lane,District,Yes,No,No,No,No
+684,Redbridge, London Overground,Yes,No,No,No,Yes
+685,Regent's Park,Northern,Yes,No,No,No,No
+686,Richmond,Bakerloo,Yes,No,Yes,No,No
+687,Rickmansworth, London Overground,Yes,No,No,No,No
+688,Roding Valley,District,Yes,No,No,No,No
+689,Rotherhithe, London Overground,No,No,No,No,Sin texto
+690,Royal Oak,Jubilee,Yes,No,No,No,No
+691,Ruislip,Bakerloo,Yes,No,No,No,No
+692,Ruislip Gardens,Jubilee,Yes,No,No,No,No
+693,Ruislip Manor,Circle,Yes,No,No,No,No
+694,Russell Square, Hammersmith & City,Yes,No,No,No,Yes
+695,St. James's Park, Metropolitan,Yes,No,No,No,No
+696,St. John's Wood, Northern,Yes,No,No,No,Yes
+697,St. Paul's, Piccadilly,Yes,No,No,No,Yes
+698,Seven Sisters, Victoria,Yes,No,Yes,No,Yes
+699,Shadwell,Piccadilly,No,No,No,No,Sin texto
+700,Shepherd's Bush LU,Circle,Yes,No,No,No,Yes
+701,Shoreditch, Hammersmith & City,No,No,No,No,Sin texto
+702,Sloane Square,Bakerloo,Yes,No,No,No,No
+703,Snaresbrook,Central,Yes,No,No,No,Yes
+704,South Ealing,Circle,Yes,No,No,No,Yes
+705,Southfields, Hammersmith & City,Yes,No,No,No,No
+706,Southgate,Piccadilly,Yes,No,No,No,Yes
+707,South Harrow, Northern,Yes,No,No,No,No
+708,South Kensington,Central,Yes,No,No,No,Yes
+709,South Kenton,Central,Yes,No,Yes,No,No
+710,South Ruislip,Central,Yes,No,No,No,No
+711,South Wimbledon, Circle,Yes,No,No,No,Yes
+712,South Woodford, Hammersmith & City,Yes,No,No,No,Yes
+713,Stamford Brook, London Overground,Yes,No,No,No,No
+714,Stanmore, Metropolitan,Yes,No,No,No,Yes
+715,Stepney Green,Northern,Yes,No,No,No,No
+716,Stockwell, Jubilee,Yes,No,No,No,Yes
+717,Stonebridge Park,Central,Yes,No,Yes,No,No
+718,Charing Cross LU,Bakerloo,Yes,No,No,No,Yes
+719,Stratford,Piccadilly,Yes,Yes,Yes,Yes,Yes
+720,Sudbury Hill,Circle,Yes,No,No,No,No
+721,Sudbury Town, District,Yes,No,No,No,No
+722,Surrey Quays,Central,No,No,No,No,Sin texto
+723,Swiss Cottage,Bakerloo,Yes,No,No,No,Yes
+724,Temple,District,Yes,No,No,No,No
+725,Theydon Bois, Hammersmith & City,Yes,No,No,No,No
+726,Tooting Bec, Central,Yes,No,No,No,Yes
+727,Tooting Broadway,Northern,Yes,No,No,No,Yes
+728,Tottenham Court Road,Circle,Yes,Yes,No,No,Yes
+729,Tottenham Hale LU, Hammersmith & City,Yes,No,No,No,Yes
+730,Totteridge & Whetstone, Metropolitan,Yes,No,No,No,Yes
+731,Tower Hill,Metropolitan,Yes,No,No,No,No
+733,Tufnell Park,Northern,Yes,No,No,No,Yes
+734,Turnham Green,Northern,Yes,No,No,No,Yes
+735,Turnpike Lane,Jubilee,Yes,No,No,No,Yes
+736,Upminster,Central,Yes,No,Yes,No,No
+737,Upminster Bridge,Sin texto,Yes,No,No,No,No
+738,Upney,Sin texto,Yes,No,No,No,No
+739,Upton Park,Central,Yes,No,No,No,No
+740,Uxbridge,Piccadilly,Yes,No,No,No,No
+741,Victoria LU,Piccadilly,Yes,No,No,No,Yes
+742,Walthamstow Central,Metropolitan,Yes,No,Yes,No,Yes
+743,Wanstead,Central,Yes,No,No,No,Yes
+744,Wapping,Bakerloo,No,No,No,No,Sin texto
+745,Warren Street, London Overground,Yes,No,No,No,Yes
+746,Warwick Avenue,Metropolitan,Yes,No,No,No,No
+747,Waterloo LU,Metropolitan,Yes,No,No,No,Yes
+748,Watford,Metropolitan,Yes,No,No,No,No
+749,Stratford High Street,Piccadilly,No,No,No,Yes,No
+750,Abbey Road,Circle,No,No,No,Yes,No
+751,Wembley Central,Central,Yes,No,Yes,No,No
+752,Wembley Park, Circle,Yes,No,No,No,Yes
+753,West Acton, District,Yes,No,No,No,Yes
+754,Westbourne Park,Piccadilly,Yes,No,No,No,No
+755,West Brompton,Northern,Yes,No,Yes,No,No
+756,West Finchley,Piccadilly,Yes,No,No,No,Yes
+757,West Ham,Northern,Yes,No,No,Yes,Yes
+758,West Hampstead LU,Bakerloo,Yes,No,No,No,Yes
+759,West Harrow, Central,Yes,No,No,No,No
+760,West Kensington, Victoria,Yes,No,No,No,No
+761,Westminster,Circle,Yes,No,No,No,Yes
+762,West Ruislip, District,Yes,No,No,No,No
+763,Whitechapel, Hammersmith & City,Yes,Yes,Yes,No,Yes
+764,White City,Piccadilly,Yes,No,No,No,Yes
+765,Willesden Green,District,Yes,No,No,No,Yes
+766,Willesden Junction,Central,Yes,No,Yes,No,No
+767,Wimbledon,Bakerloo,Yes,No,No,No,No
+768,Wimbledon Park, Piccadilly,Yes,No,No,No,No
+769,Woodford,Metropolitan,Yes,No,No,No,No
+770,Wood Green,District,Yes,No,No,No,Yes
+771,Woodside Park, Hammersmith & City,Yes,No,No,No,Yes
+773,Hammersmith (H&C),Metropolitan,Yes,No,No,No,No
+774,Edgware Road (Bak),District,Yes,No,No,No,No
+775,Shepherd's Bush Market,Jubilee,Yes,No,No,No,No
+776,Pimlico,Bakerloo,Yes,No,No,No,Yes
+777,Vauxhall LU, London Overground,Yes,No,No,No,Yes
+778,Brixton LU,Central,Yes,No,No,No,Yes
+779,Hatton Cross,District,Yes,No,No,No,Yes
+780,Heathrow Terminals 123 LU,Metropolitan,Yes,No,No,No,Yes
+781,Heathrow Terminal 4 LU, Piccadilly,Yes,No,No,No,Yes
+783,Heathrow Terminal 5 LU,Circle,Yes,No,No,No,Yes
+784,Southwark,Central,Yes,No,No,No,Yes
+787,Bermondsey,Bakerloo,Yes,No,No,No,Yes
+788,Canada Water,District,Yes,No,Yes,No,Yes
+789,North Greenwich, London Overground,Yes,No,No,No,Yes
+831,Nine Elms,DLR,Yes,No,No,No,No
+832,Battersea Power Station,DLR,Yes,No,No,No,No
+842,Canary Wharf DLR, District,No,No,No,Yes,No
+850,All Saints,Jubilee,No,No,No,Yes,No
+851,Bow Church,Central,No,No,No,Yes,No
+852,Canary Wharf LU,Metropolitan,Yes,No,No,No,Yes
+853,Langdon Park,London Overground,No,No,No,Yes,No
+854,Crossharbour, Victoria,No,No,No,Yes,No
+855,Heron Quays,Sin texto,No,No,No,Yes,No
+856,Island Gardens,Central,No,No,No,Yes,No
+857,Mudchute,Sin texto,No,No,No,Yes,No
+858,Poplar,Circle,No,No,No,Yes,No
+859,Pudding Mill Lane, District,No,No,No,Yes,No
+860,Shadwell DLR,Central,No,No,No,Yes,No
+861,South Quay,Piccadilly,No,No,No,Yes,No
+862,Limehouse DLR,District,No,No,No,Yes,No
+864,Tower Gateway,Piccadilly,No,No,No,Yes,No
+865,Westferry,Piccadilly,No,No,No,Yes,No
+866,West India Quay,District,No,No,No,Yes,No
+867,Devons Road, Piccadilly,No,No,No,Yes,No
+879,Cutty Sark, Circle,No,No,No,Yes,No
+882,Blackwall,Bakerloo,No,No,No,Yes,No
+883,East India, London Overground,No,No,No,Yes,No
+884,Canning Town,Central,Yes,No,No,Yes,Yes
+886,Royal Victoria,Central,No,No,No,Yes,No
+887,Custom House,Northern,No,Yes,No,Yes,No
+888,Prince Regent,Central,No,No,No,Yes,No
+889,Star Lane,District,No,No,No,Yes,No
+890,Royal Albert,Jubilee,No,No,No,Yes,No
+891,Beckton Park,District,No,No,No,Yes,No
+893,Cyprus, Hammersmith & City,No,No,No,Yes,No
+894,Gallions Reach,Northern,No,No,No,Yes,No
+895,Beckton, Victoria,No,No,No,Yes,No
+897,Deptford Bridge,Bakerloo,No,No,No,Yes,No
+898,Elverson Road, London Overground,No,No,No,Yes,No
+928,Greenwich,Bakerloo,No,No,No,Yes,No
+940,Lewisham DLR, Northern,No,No,No,Yes,No
+1022,Haggerston,Central,No,No,Yes,No,Yes
+1023,Hoxton, DLR,No,No,Yes,No,Yes
+1024,Shoreditch High Street, Jubilee,No,No,Yes,No,Yes
+1039,Rotherhithe, London Overground,No,No,Yes,No,Yes
+1082,Shadwell LO, TfL Rail,No,No,Yes,No,Yes
+1083,Surrey Quays,Piccadilly,No,No,Yes,No,Yes
+1085,Wapping,Piccadilly,No,No,Yes,No,Yes
+1395,Bushey,Sin texto,No,No,Yes,No,No
+1398,Hatch End,Jubilee,No,No,Yes,No,No
+1402,Watford Junction,Circle,No,No,Yes,No,No
+1404,Acton Central, District,No,No,Yes,No,No
+1409,Gospel Oak,Central,No,No,Yes,No,No
+1413,Hampstead Heath,Northern,No,No,Yes,No,No
+1415,Kilburn High Road,Northern,No,No,Yes,No,No
+1421,West Hampstead LO,Central,No,No,Yes,No,No
+1429,Dalston Kingsland, Northern,No,No,Yes,No,No
+1434,Headstone Lane, TfL Rail,No,No,No,No,Sin texto
+1437,Brondesbury,Victoria,No,No,Yes,No,No
+1438,Brondesbury Park,Northern,No,No,Yes,No,No
+1439,Caledonian Road & Barnsbury,Circle,No,No,Yes,No,No
+1440,Camden Road, District,No,No,Yes,No,No
+1441,Canonbury,Northern,No,No,Yes,No,Yes
+1442,Carpenders Park,District,No,No,Yes,No,No
+1443,Dalston Junction, Piccadilly,No,No,Yes,No,Yes
+1444,Euston NR,Piccadilly,No,No,Yes,No,No
+1445,Finchley Road & Frognal,District,No,No,Yes,No,No
+1448,Kensal Rise, London Overground,No,No,Yes,No,No
+1449,Kentish Town West,District,No,No,Yes,No,No
+1451,South Hampstead,District,No,No,Yes,No,No
+1452,South Acton,District,No,No,Yes,No,No
+1455,Watford High Street, Hammersmith & City,No,No,Yes,No,No
+1524,Upper Holloway,Metropolitan,No,No,Yes,No,No
+3000,Acton Main Line,DLR,No,Yes,No,No,No
+3087,Paddington NR, Jubilee ,No,Yes,No,No,No
+3147,Maidenhead,DLR,No,Yes,No,No,No
+3149,Reading,DLR,No,Yes,No,No,No
+3151,Taplow,DLR,No,Yes,No,No,No
+3155,Twyford,DLR,No,Yes,No,No,No
+3170,Iver,DLR,No,Yes,No,No,No
+3171,Langley,DLR,No,Yes,No,No,No
+3172,Slough,DLR,No,Yes,No,No,No
+3174,West Drayton,DLR,No,Yes,No,No,No
+3176,Burnham,DLR,No,Yes,No,No,No
+3186,Hayes & Harlington,Circle,No,No,Yes,No,No
+3186,Hayes & Harlington, Hammersmith & City,No,Yes,No,No,No
+3187,Southall,Piccadilly,No,Yes,No,No,No
+3188,West Ealing,DLR,No,Yes,No,No,No
+3191,Hanwell,DLR,No,Yes,No,No,No
+5150,New Cross, Piccadilly,No,No,Yes,No,No
+5301,Clapham High Street,Circle,No,No,Yes,No,No
+5345,New Cross Gate, District,No,No,Yes,No,Yes
+5356,Crystal Palace, Victoria,No,No,Yes,No,No
+5362,Forest Hill,London Overground,No,No,Yes,No,No
+5372,Wandsworth Road, Victoria,No,No,Yes,No,No
+5376,Norwood Junction,Central,No,No,Yes,No,No
+5378,Penge West,Sin texto,No,No,Yes,No,No
+5397,Anerley,Northern,No,No,Yes,No,No
+5404,Brockley, Victoria,No,No,Yes,No,No
+5411,West Croydon NR,Bakerloo,No,No,Yes,No,No
+5418,Honor Oak Park,Bakerloo,No,No,Yes,No,No
+5420,Battersea Park, Jubilee,No,No,Yes,No,No
+5421,Denmark Hill, Northern,No,No,Yes,No,No
+5423,Peckham Rye, Waterloo & City,No,No,Yes,No,No
+5424,Queens Road Peckham,Metropolitan,No,No,Yes,No,No
+5437,Sydenham,Bakerloo,No,No,Yes,No,No
+5595,Clapham Junction, London Overground,No,No,Yes,No,No
+6814,Cheshunt,Metropolitan,No,No,Yes,No,No
+6867,Hackney Downs, Jubilee,No,No,Yes,No,No
+6872,Brentwood,Central,No,Yes,No,No,No
+6874,Chadwell Heath,Circle,No,Yes,No,No,No
+6876,Forest Gate, Hammersmith & City,No,Yes,No,No,No
+6877,Gidea Park,District,No,Yes,No,No,No
+6878,Goodmayes, London Overground,No,Yes,No,No,No
+6879,Harold Wood,Northern,No,Yes,No,No,No
+6881,Ilford,District,No,Yes,No,No,No
+6883,Manor Park, DLR,No,Yes,No,No,No
+6886,Romford, Hammersmith & City,No,Yes,Yes,No,No
+6888,Shenfield, Jubilee,No,Yes,No,No,No
+6893,Seven Kings,Jubilee,No,Yes,No,No,No
+6913,Bush Hill Park,Metropolitan,No,No,Yes,No,No
+6914,Chingford,District,No,No,Yes,No,No
+6919,Highams Park,Circle,No,No,Yes,No,No
+6926,Clapton, District,No,No,Yes,No,No
+6934,Stoke Newington, Jubilee,No,No,Yes,No,No
+6941,Edmonton Green,Central,No,No,Yes,No,No
+6947,Southbury,District,No,No,Yes,No,No
+6949,Theobalds Grove, Hammersmith & City,No,No,Yes,No,No
+6952,Turkey Street, London Overground,No,No,Yes,No,No
+6954,Wood Street, TfL Rail,No,No,Yes,No,No
+6956,White Hart Lane,Central,No,No,Yes,No,No
+6958,Bruce Grove,Jubilee,No,No,Yes,No,No
+6959,Enfield Town,Bakerloo,No,No,Yes,No,No
+6961,Bethnal Green LO, London Overground,No,No,Yes,No,No
+6962,Cambridge Heath,District,No,No,Yes,No,No
+6965,Liverpool Street NR,District,No,Yes,No,No,No
+6966,London Fields,Central,No,No,Yes,No,No
+6967,Rectory Road,Piccadilly,No,No,Yes,No,No
+6968,Stamford Hill,Northern,No,No,Yes,No,No
+6970,Maryland,Circle,No,Yes,No,No,No
+6972,Silver Street, Hammersmith & City,No,No,Yes,No,No
+6973,St James Street,Bakerloo,No,No,Yes,No,No
+6977,Hackney Central,Circle,No,No,Yes,No,No
+6978,Hackney Wick, Hammersmith & City,No,No,Yes,No,No
+6979,Homerton,Victoria,No,No,Yes,No,No
+7090,Heathrow Terminals 2 & 3 EL,DLR,No,Yes,No,No,No
+7091,Heathrow Terminal 4 EL,DLR,No,Yes,No,No,No
+7401,Harringay Green Lanes,Victoria,No,No,Yes,No,No
+7402,Leyton Midland Road,Victoria,No,No,Yes,No,No
+7403,Leytonstone High Road,Piccadilly,No,No,Yes,No,No
+7404,South Tottenham,Piccadilly,No,No,Yes,No,No
+7406,Crouch Hill,Piccadilly,No,No,Yes,No,No
+7407,Walthamstow Queen's Road,Jubilee,No,No,Yes,No,No
+7408,Wanstead Park,Jubilee,No,No,Yes,No,No
+7467,Woodgrange Park,Jubilee,No,No,Yes,No,No
+7473,Emerson Park, London Overground,No,No,Yes,No,No
+9586,Imperial Wharf,Jubilee,No,No,Yes,No,No
+9587,Shepherd's Bush NR,Jubilee,No,No,Yes,No,No
+9846,Heathrow Terminal 5 EL,DLR,No,Yes,No,No,No
