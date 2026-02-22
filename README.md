@@ -9,8 +9,8 @@ Este proyecto analiza la evolución del flujo de pasajeros en la red de transpor
 El análisis está dado por un proceso de ingeniería de datos (Python + Pandas), seguido de una fase de consultas análiticas (SQL).
 
 - data/: Contiene los archivos CSV crudos y procesados. En los procesados se cuenta con:
- - estaciones_limpias.csv: Es el catáogo de estaciones (ya normalizado en 3FN).
- - flujo_pasajeros.csv: El cual determina, para cada NLC y su año, el flujo de pasajeros en dicho año.
+    - - estaciones_limpias.csv: Es el catáogo de estaciones (ya normalizado en 3FN).
+    - - flujo_pasajeros.csv: El cual determina, para cada NLC y su año, el flujo de pasajeros en dicho año.
  - movimientos_año_20xx.csv: Son los datos de flujo anual con detalles de movimientos semanales.
 
 - notebooks/: El archivo data_work.ipynb con todo el proceso de limpieza en Python/Pandas.
