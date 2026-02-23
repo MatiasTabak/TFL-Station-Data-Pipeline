@@ -19,15 +19,15 @@ CREATE TABLE IF NOT EXISTS estaciones_limpias (
 
 CREATE TABLE IF NOT EXISTS flujo_pasajeros (
 	nlc INT NOT NULL,
-    año INT,
+    anio INT,
     flujo_pasajeros BIGINT,
     
     CONSTRAINT fk_estaciones_flujo
     FOREIGN KEY (nlc) REFERENCES estaciones_limpias(nlc),
-    PRIMARY KEY (nlc, año)
+    PRIMARY KEY (nlc, anio)
 ) ENGINE = InnoDB;
 
-CREATE TABLE IF NOT EXISTS movimientos_año_2012 (
+CREATE TABLE IF NOT EXISTS movimientos_2012 (
 	nlc INT NOT NULL,
     estacion VARCHAR(255),
     entradas_semana INT,
@@ -36,14 +36,14 @@ CREATE TABLE IF NOT EXISTS movimientos_año_2012 (
     salidas_semana INT,
     salidas_sabado INT,
     salidas_domingo INT,
-    entradas_salidas_anual_millones DECIMAL(4,2),
+    entradas_salidas_anual_millones DECIMAL(10, 2),
     
     CONSTRAINT fk_estaciones_2012
     FOREIGN KEY (nlc) REFERENCES estaciones_limpias(nlc),
     PRIMARY KEY (nlc)
 ) ENGINE = InnoDB;
 
-CREATE TABLE IF NOT EXISTS movimientos_año_2017 (
+CREATE TABLE IF NOT EXISTS movimientos_2017 (
 	nlc INT NOT NULL,
     estacion VARCHAR(255),
     entradas_semana INT,
@@ -52,14 +52,14 @@ CREATE TABLE IF NOT EXISTS movimientos_año_2017 (
     salidas_semana INT,
     salidas_sabado INT,
     salidas_domingo INT,
-    entradas_salidas_anual_millones DECIMAL(4,2),
+    entradas_salidas_anual_millones DECIMAL(10, 2),
     
     CONSTRAINT fk_estaciones_2017
     FOREIGN KEY (nlc) REFERENCES estaciones_limpias(nlc),
     PRIMARY KEY (nlc)
 ) ENGINE = InnoDB;
 
-CREATE TABLE IF NOT EXISTS movimientos_año_2021 (
+CREATE TABLE IF NOT EXISTS movimientos_2021 (
 	nlc INT NOT NULL,
     estacion VARCHAR(255),
     entradas_semana INT,
@@ -68,7 +68,7 @@ CREATE TABLE IF NOT EXISTS movimientos_año_2021 (
     salidas_semana INT,
     salidas_sabado INT,
     salidas_domingo INT,
-    entradas_salidas_anual_millones DECIMAL(4,2),
+    entradas_salidas_anual_millones DECIMAL(10, 2),
     
     CONSTRAINT fk_estaciones_2021
     FOREIGN KEY (nlc) REFERENCES estaciones_limpias(nlc),
