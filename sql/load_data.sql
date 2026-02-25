@@ -21,7 +21,7 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'
 IGNORE 1 ROWS
 (nlc, anio, @v_flujo)
-SET flujo_pasajeros = NULLIF(@v_flujo, -1);
+SET flujo = NULLIF(@v_flujo, -1);
 SAVEPOINT flujo_ok;
 
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/movimientos_2012.csv'
