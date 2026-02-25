@@ -14,13 +14,13 @@ CREATE TABLE IF NOT EXISTS estaciones_limpias (
 	dlr ENUM('Yes', 'No'),
 	metro_nocturno ENUM('Yes', 'No'), #'Sin texto' será tratado como null
     
-    PRIMARY KEY (nlc)
+    PRIMARY KEY (nlc, lineas)
 ) ENGINE = InnoDB;
 
 CREATE TABLE IF NOT EXISTS flujo_pasajeros (
 	nlc INT NOT NULL,
     anio INT,
-    flujo_pasajeros BIGINT,
+    flujo BIGINT,
     
     CONSTRAINT fk_estaciones_flujo
     FOREIGN KEY (nlc) REFERENCES estaciones_limpias(nlc),
@@ -39,8 +39,7 @@ CREATE TABLE IF NOT EXISTS movimientos_2012 (
     entradas_salidas_anual_millones DECIMAL(10, 2),
     
     CONSTRAINT fk_estaciones_2012
-    FOREIGN KEY (nlc) REFERENCES estaciones_limpias(nlc),
-    PRIMARY KEY (nlc)
+    FOREIGN KEY (nlc) REFERENCES estaciones_limpias(nlc)
 ) ENGINE = InnoDB;
 
 CREATE TABLE IF NOT EXISTS movimientos_2017 (
@@ -55,8 +54,7 @@ CREATE TABLE IF NOT EXISTS movimientos_2017 (
     entradas_salidas_anual_millones DECIMAL(10, 2),
     
     CONSTRAINT fk_estaciones_2017
-    FOREIGN KEY (nlc) REFERENCES estaciones_limpias(nlc),
-    PRIMARY KEY (nlc)
+    FOREIGN KEY (nlc) REFERENCES estaciones_limpias(nlc)
 ) ENGINE = InnoDB;
 
 CREATE TABLE IF NOT EXISTS movimientos_2021 (
@@ -71,6 +69,5 @@ CREATE TABLE IF NOT EXISTS movimientos_2021 (
     entradas_salidas_anual_millones DECIMAL(10, 2),
     
     CONSTRAINT fk_estaciones_2021
-    FOREIGN KEY (nlc) REFERENCES estaciones_limpias(nlc),
-    PRIMARY KEY (nlc)
+    FOREIGN KEY (nlc) REFERENCES estaciones_limpias(nlc)
 ) ENGINE = InnoDB;
