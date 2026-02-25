@@ -2,15 +2,40 @@
 1) Análisis de recuperación post-pandemia
 
 1. El Ranking de Resiliencia: ¿Qué 10 estaciones recuperaron el mayor porcentaje de su flujo de 2017 en 2021?
-2. Las más golpeadas: ¿Qué estaciones quedaron por debajo del 40% de su flujo original? (Ideal para identificar zonas de oficinas que se vaciaron).
+2. Las más golpeadas: ¿Qué estaciones quedaron por debajo del 40% de su flujo original?
 3. Análisis de Valor Absoluto: ¿Cuál fue la pérdida total de pasajeros en toda la red entre 2017 y 2021?
  */
 
 #1.1
 
+SELECT
+	f.nlc,
+	f.flujo AS 'flujo_2017',
+    p.flujo AS 'flujo_2021',
+    p.flujo*100/f.flujo AS 'porcentaje_incremento/decremento'
+FROM flujo_pasajeros AS f
+JOIN flujo_pasajeros AS p ON f.nlc = p.nlc
+ORDER BY 4 DESC
+LIMIT 10;
+
 #1.2
 
+SELECT
+	f.nlc,
+	f.flujo AS 'flujo_2017',
+    p.flujo AS 'flujo_2021',
+    p.flujo*100/f.flujo AS 'porcentaje_incremento/decremento'
+FROM flujo_pasajeros AS f
+JOIN flujo_pasajeros AS p ON f.nlc = p.nlc
+WHERE 
+	(p.flujo IS NOT NULL AND p.flujo != 0) AND 
+    (f.flujo IS NOT NULL AND f.flujo != 0) AND
+    p.flujo*100/f.flujo <= 40
+ORDER BY 4 DESC;
+
 #1.3
+
+SELECT * FROM flujo_pasajeros;
 
  /*
  2) Impacto de infraestructura y red
