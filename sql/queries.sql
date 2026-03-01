@@ -35,7 +35,26 @@ ORDER BY 4 DESC;
 
 #1.3
 
-SELECT * FROM flujo_pasajeros;
+#Por estaciones
+SELECT 
+		f.nlc, SUM(f.flujo) AS cantidad_2017, 
+		SUM(p.flujo) AS cantidad_2021, 
+        SUM(p.flujo) - SUM(f.flujo) AS perdida_pasajeros_por_estacion 
+FROM flujo_pasajeros AS f
+JOIN flujo_pasajeros AS p ON f.nlc = p.nlc
+WHERE f.anio = 2017 AND p.anio = 2021
+GROUP BY f.nlc
+HAVING perdida_pasajeros_por_estacion IS NOT NULL;
+
+#Total
+SELECT 
+		SUM(f.flujo) AS cantidad_2017, 
+        SUM(p.flujo) AS cantidad_2021, 
+        SUM(p.flujo) - SUM(f.flujo) AS perdida_pasajeros_total 
+FROM flujo_pasajeros AS f
+JOIN flujo_pasajeros AS p ON f.nlc = p.nlc
+WHERE f.anio = 2017 AND p.anio = 2021
+HAVING perdida_pasajeros_total IS NOT NULL;
 
  /*
  2) Impacto de infraestructura y red
@@ -46,6 +65,38 @@ SELECT * FROM flujo_pasajeros;
  */
 
 #2.1
+
+WITH overground AS (
+	SELECT 
+		SUM(
+        COALESCE(entradas_semana, 0) + 
+        COALESCE(entradas_sabado, 0) + 
+        COALESCE(entradas_domingo, 0) + 
+        COALESCE(salidas_semana, 0) + 
+        COALESCE(salidas_sabado, 0) + 
+        COALESCE(salidas_domingo, 0)) AS flujo_overground
+	FROM estaciones_limpias AS e
+	INNER JOIN movimientos_2021 AS m ON e.nlc = m.nlc
+	WHERE london_overground = 'Yes'
+), elizabeth AS (
+	SELECT 
+		SUM(
+        COALESCE(entradas_semana, 0) + 
+        COALESCE(entradas_sabado, 0) + 
+        COALESCE(entradas_domingo, 0) + 
+        COALESCE(salidas_semana, 0) + 
+        COALESCE(salidas_sabado, 0) + 
+        COALESCE(salidas_domingo, 0)) AS flujo_elizabeth 
+	FROM estaciones_limpias AS e
+	INNER JOIN movimientos_2021 AS m ON e.nlc = m.nlc
+	WHERE elizabeth_line = 'Yes'
+)
+
+SELECT 
+	FORMAT(flujo_overground, 0) AS overground_flujo,
+    FORMAT(flujo_elizabeth, 0) AS elizabeth_flujo
+FROM overground
+CROSS JOIN elizabeth;
 
 #2.2
 
