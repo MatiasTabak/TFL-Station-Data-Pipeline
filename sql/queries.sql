@@ -1,9 +1,9 @@
 /* 
 1) Análisis de recuperación post-pandemia
 
-1. El Ranking de Resiliencia: ¿Qué 10 estaciones recuperaron el mayor porcentaje de su flujo de 2017 en 2021?
-2. Las más golpeadas: ¿Qué estaciones quedaron por debajo del 40% de su flujo original?
-3. Análisis de Valor Absoluto: ¿Cuál fue la pérdida total de pasajeros en toda la red entre 2017 y 2021?
+1. ¿Qué 10 estaciones recuperaron el mayor porcentaje de su flujo de 2017 en 2021?
+2. ¿Qué estaciones quedaron por debajo del 40% de su flujo original?
+3. ¿Cuál fue la pérdida total de pasajeros en toda la red entre 2017 y 2021?
  */
 
 #1.1
@@ -59,9 +59,9 @@ HAVING perdida_pasajeros_total IS NOT NULL;
  /*
  2) Impacto de infraestructura y red
  
-1.Predominio de Redes: ¿Cuál es el flujo total sumado de todas las estaciones que pertenecen a la Elizabeth Line vs las de la London Overground en 2021?
-2.Efecto "Night Tube": ¿Tuvieron las estaciones con servicio nocturno (metro_nocturno = 'Yes') una caída de pasajeros menor que las que no tienen este servicio?
-3.Líneas más concurridas: ¿Qué línea de metro (buscando en la columna lineas con LIKE) mueve más gente en un año base como 2017?
+1. ¿Cuál es el flujo total sumado de todas las estaciones que pertenecen a la Elizabeth Line vs las de la London Overground en 2021?
+2. ¿Tuvieron las estaciones con servicio nocturno una caída de pasajeros menor que las que no tienen este servicio?
+3. ¿Qué línea de metro (buscando en la columna lineas con LIKE) mueve más gente en un año base como 2017?
  */
 
 #2.1
@@ -100,7 +100,29 @@ CROSS JOIN elizabeth;
 
 #2.2
 
+WITH variaciones AS (
+	SELECT 
+		ROUND(
+			100 - SUM(CASE WHEN (e.metro_nocturno = 'Yes') THEN s.flujo ELSE 0 END)*100/
+			NULLIF(SUM(CASE WHEN (e.metro_nocturno = 'Yes') THEN f.flujo ELSE 0 END), 0), 2
+		) AS caida_nocturna,
+		ROUND(
+			100 - SUM(CASE WHEN (e.metro_nocturno = 'No') THEN s.flujo ELSE 0 END)*100/
+			NULLIF(SUM(CASE WHEN (e.metro_nocturno = 'No') THEN f.flujo ELSE 0 END), 0), 2
+		) AS caida_no_nocturna    
+	FROM estaciones_limpias AS e
+	INNER JOIN flujo_pasajeros AS f ON e.nlc = f.nlc AND f.anio = 2017
+	INNER JOIN flujo_pasajeros AS s ON e.nlc = s.nlc AND s.anio = 2021
+)
+
+SELECT 
+	IF(caida_nocturna < caida_no_nocturna, 'Sí', 'No') AS 
+    '¿Tuvieron las estaciones con servicio nocturno una caída de pasajeros menor que las que no tienen este servicio?' 
+FROM variaciones;
+
 #2.3
+
+SELECT * FROM movimientos_2017;
 
 /*
 3) Hitos históricos
