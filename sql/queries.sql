@@ -4,6 +4,7 @@
 1. ¿Qué 10 estaciones recuperaron el mayor porcentaje de su flujo de 2017 en 2021?
 2. ¿Qué estaciones quedaron por debajo del 40% de su flujo original?
 3. ¿Cuál fue la pérdida total de pasajeros en toda la red entre 2017 y 2021?
+4. ¿Qué línea de metro mueve más gente en un año base como 2017?
  */
 
 #1.1
@@ -56,12 +57,22 @@ JOIN flujo_pasajeros AS p ON f.nlc = p.nlc
 WHERE f.anio = 2017 AND p.anio = 2021
 HAVING perdida_pasajeros_total IS NOT NULL;
 
+#1.4
+
+SELECT 
+	TRIM(e.lineas) AS lineas_limpias, FORMAT(SUM(f.flujo), 0) AS suma_de_flujo 
+FROM flujo_pasajeros AS f
+INNER JOIN estaciones_limpias AS e ON f.nlc = e.nlc
+WHERE 
+	f.anio = 2017
+GROUP BY lineas_limpias
+ORDER BY SUM(f.flujo) DESC;
+
  /*
  2) Impacto de infraestructura y red
  
 1. ¿Cuál es el flujo total sumado de todas las estaciones que pertenecen a la Elizabeth Line vs las de la London Overground en 2021?
 2. ¿Tuvieron las estaciones con servicio nocturno una caída de pasajeros menor que las que no tienen este servicio?
-3. ¿Qué línea de metro (buscando en la columna lineas con LIKE) mueve más gente en un año base como 2017?
  */
 
 #2.1
@@ -120,20 +131,31 @@ SELECT
     '¿Tuvieron las estaciones con servicio nocturno una caída de pasajeros menor que las que no tienen este servicio?' 
 FROM variaciones;
 
-#2.3
-
-SELECT * FROM movimientos_2017;
-
 /*
 3) Hitos históricos
 
-1. El pico Olímpico: Comparar 2011 vs 2012. ¿Hubo estaciones específicas (cercanas a estadios) que crecieron más de un 20% en ese año?
-2. 2012 vs 2021: ¿Cuántas estaciones hoy en día (2021) tienen menos flujo que hace casi 10 años en los Juegos Olímpicos?
+1. Comparar 2011 vs 2012. ¿Hubo estaciones específicas (cercanas a estadios) que crecieron más de un 20% en ese año?
+2. ¿Cuántas estaciones en 2021 tienen menos flujo que hace casi 10 años en los Juegos Olímpicos?
  */
  
 #3.1
 
 #3.2
+
+WITH menor_flujo AS (
+	SELECT 
+		e.estacion, f.flujo AS flujo_olimpico, p.flujo AS flujo_pandemia
+	FROM flujo_pasajeros AS f
+	INNER JOIN estaciones_limpias AS e ON f.nlc = e.nlc AND f.anio =2012
+	INNER JOIN flujo_pasajeros AS p ON f.nlc = p.nlc AND p.anio = 2021
+	WHERE p.flujo < f.flujo AND f.flujo > 0 AND p.flujo > 0
+)
+
+SELECT 
+	COUNT(*) AS 'Estaciones con menor flujo',
+    (SELECT COUNT(*) FROM estaciones_limpias) AS 'Cantidad total de estaciones',
+    ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM estaciones_limpias), 2) AS 'Porcentaje afectado %'
+FROM menor_flujo;
 
 /*
 4) Consultas Técnicas
